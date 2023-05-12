@@ -1,0 +1,54 @@
+@media screen and (max-width: 515px){
+    header{
+        height: auto;
+        position: relative;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .mobile_icon{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        padding: .5rem;
+        border-radius: 5px;
+        margin: 1rem;
+        background: #fff;
+    }
+
+    .mobile_icon img{
+        width: 100%;
+    }
+
+    .popup{
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        background:rgba(255, 255, 255, .8);
+    }
+
+    .photo img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    header.open .popup a{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        color:black;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
